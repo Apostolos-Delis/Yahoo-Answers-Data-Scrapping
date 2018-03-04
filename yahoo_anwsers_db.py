@@ -3,7 +3,8 @@ import click
 import orator
 from orator import Schema
 
-from app import settings
+# You will have to add your own settings here
+from "something..." import settings
 
 _CONFIG = {
     'mysql': {
