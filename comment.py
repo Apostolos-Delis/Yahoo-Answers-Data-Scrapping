@@ -1,4 +1,4 @@
-from app.yahoo_answers_data_scrapping.yahoo_anwsers_db import schema, Model
+from yahoo_anwsers_db import schema, Model
 
 
 class Comment(Model):
