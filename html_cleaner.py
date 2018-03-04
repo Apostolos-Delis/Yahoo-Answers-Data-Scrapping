@@ -1,8 +1,7 @@
 from os import path
 from bs4 import BeautifulSoup
-from app import settings
-from app.yahoo_answers_data_scrapping.url_generator import UrlGen
-from app.yahoo_answers_data_scrapping.html_parsing import YahooAnswersHTMLParser
+from url_generator import UrlGen
+from html_parsing import YahooAnswersHTMLParser
 
 import requests
 import hashlib
