@@ -3,13 +3,15 @@ from os import path
 import hashlib
 import shutil
 from bs4 import BeautifulSoup
-from app import settings
+
+# Make that you add your own settings file...
+from  "Something..." import settings
 import os
 import errno
 
 
 class UrlGen:
-
+    #The settings.DATA_STORE_PATH will have to be modified on a user to user basis
     BASE_DIRECTORY = path.join(settings.DATA_STORE_PATH, "yahoo_scrapes")
     HTML_DIRECTORY = path.join(BASE_DIRECTORY, "html_files")
     URL_FILE = path.join(BASE_DIRECTORY, "urls.txt")
