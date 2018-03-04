@@ -1,5 +1,5 @@
-from app.yahoo_answers_data_scrapping.html_cleaner import HtmlCleaner
-from app.yahoo_answers_data_scrapping.url_generator import UrlGen
+from html_cleaner import HtmlCleaner
+from url_generator import UrlGen
 
 if __name__ == "__main__":
 
