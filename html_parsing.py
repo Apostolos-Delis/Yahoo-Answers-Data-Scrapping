@@ -1,7 +1,7 @@
 from os import path
 from bs4 import BeautifulSoup
 from app import settings
-from app.yahoo_answers_data_scrapping.url_generator import UrlGen
+from url_generator import UrlGen
 
 import html
 import requests
