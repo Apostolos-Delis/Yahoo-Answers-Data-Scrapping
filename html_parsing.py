@@ -161,7 +161,7 @@ class YahooAnswersHTMLParser:
         :param comment: the comment that is the best answer of the post
         :return: integer value out of 5 with the asker's rating
         """
-        pass
+        return re.sub('{}@#<<>//>', comment.split('ask:<rating>')[-1][2:]
 
     @html_decode
     def get_comment_body(self, comment: str)->str:
